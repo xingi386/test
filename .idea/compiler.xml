@@ -9,8 +9,8 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar" />
         </processorPath>
-        <module name="test-application-event" />
         <module name="test-scheduling" />
+        <module name="test-application-event" />
         <module name="test-logging" />
         <module name="test-autoconfig" />
       </profile>
