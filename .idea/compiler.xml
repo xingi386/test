@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for test" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar" />
+        </processorPath>
+        <module name="test-application-event" />
+        <module name="test-scheduling" />
+        <module name="test-logging" />
+        <module name="test-autoconfig" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test-application-event" options="-Xlint:unchecked" />
+      <module name="test-autoconfig" options="-Xlint:unchecked" />
+      <module name="test-logging" options="-Xlint:unchecked" />
+      <module name="test-scheduling" options="-Xlint:unchecked" />
+    </option>
+  </component>
+</project>
